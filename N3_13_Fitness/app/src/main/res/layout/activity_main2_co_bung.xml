@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d2d2d2"
+    tools:context="com.example.luongoc.n3_13_fitness.trangChu.Main2.Main2CoBung">
+
+    <LinearLayout
+        android:background="#7398f7"
+        android:id="@+id/llAbs"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+        <ImageView
+            android:src="@drawable/icon_back"
+            android:padding="12dp"
+            android:id="@+id/imgBackMain"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Abs"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/llAbs"
+        android:id="@+id/llCoBung"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/llAbs1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgAvt1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/hot" />
+
+                <TextView
+                    android:id="@+id/tvMota1"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Bicycle Crunch"
+                    android:textColor="#000000"
+                    android:textSize="25dp" />
+
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/imgGoAbs1"
+                    android:layout_width="30dp"
+                    android:src="@drawable/icon_go"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"></View>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llAbs2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgAvt2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/hot" />
+
+                <TextView
+                    android:id="@+id/tvMota2"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Hanging Leg Raise"
+                    android:textColor="#000000"
+                    android:textSize="25dp" />
+
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/imgGoAbs2"
+                    android:layout_width="30dp"
+                    android:src="@drawable/icon_go"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"></View>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
